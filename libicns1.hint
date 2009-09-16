@@ -1,0 +1,8 @@
+category: Graphics
+requires: libgcc1 libjasper1
+external-source: libicns
+sdesc: "MacOS .icns resource format library (runtime)"
+ldesc: "libicns is a library for manipulation of the Mac OS icns 
+resource format, also known as the IconFamily resource type. It can read 
+and write files from the Mac OS X icns format, as well as read from Mac 
+OS resource files and macbinary encoded Mac OS resource forks."
