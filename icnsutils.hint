@@ -1,5 +1,5 @@
 category: Graphics
-requires: libgcc1 libicns1 libpng12
+requires: libgcc1 libicns1 libpng14
 external-source: libicns
 sdesc: "MacOS .icns resource format converters"
 ldesc: "libicns is a library for manipulation of the Mac OS icns 
