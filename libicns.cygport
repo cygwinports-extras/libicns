@@ -1,17 +1,17 @@
 NAME="libicns"
 VERSION=0.8.1
 RELEASE=2
-CATEGORY="Graphics"
+CATEGORY="Libs"
 SUMMARY="Mac OS .icns resource format library"
 DESCRIPTION="libicns is a library for manipulation of the Mac OS icns resource
 format, also known as the IconFamily resource type. It can read and write files
 from the Mac OS X icns format, as well as read from Mac OS resource files and
 macbinary encoded Mac OS resource forks."
 HOMEPAGE="http://icns.sourceforge.net/"
-SRC_URI="mirror://sourceforge/icns/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/icns/${NAME}-${VERSION}.tar.gz"
 PATCH_URI="01-no-undefined.patch"
 
-PKG_NAMES="${PN}1 ${PN}-devel icnsutils"
+PKG_NAMES="${NAME}1 ${NAME}-devel icnsutils"
 libicns1_CONTENTS="usr/bin/cygicns-1.dll usr/share/doc/"
 libicns_devel_CONTENTS="usr/include/ usr/lib/"
 icnsutils_SUMMARY="Mac OS .icns resource format converters"
